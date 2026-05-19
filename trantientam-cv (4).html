@@ -1,34 +1,3 @@
-getgenv().Config = {
-    ["Setting"] = {
-        ["UiCheckItem"] = false,
-        ["White Screen"] = false
-    },       
-    ["MainItem"] = {
-        ["Saber"] = true,         
-        ["Hallow Scythe"] = true,
-        ["GodHuman"] = true,
-        ["Skull Guitar"] = true,
-        ["Cursed Dual Katana"] = true
-    },
-    ["MiscItem"] = {
-        ["Feathered Visage"] = true,
-        ["Pole1st"] = true,
-        ["Dragon Trident"] = true,
-        ["Spikey Trident"] = true,
-        ["Buddy"] = true,
-        ["Cavender"] = true,
-        ["Twin Hooks"] = true,
-        ["Gravity Blade"] = true,
-        ["Venom Bow"] = true
-    },
-    ["Quest"] = {
-        ["Race V2"] = true,
-        ["Race V3"] = true,
-        ["Haki Rainbow"] = true
-    },
-    ["Webhook"] = {
-        ["Enable"] = false,
-        ["UrlWebhook"] = "",
-    }
-}
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-BlueX/BlueX-Hub/refs/heads/main/KaitunBloxFruits.lua"))()
+repeat wait() until game:IsLoaded() and game.Players.LocalPlayer 
+getgenv().team = "Marines" --  Marines or Pirates
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dev-NightMystic/Bloxfruits/refs/heads/main/Script.lua"))()
